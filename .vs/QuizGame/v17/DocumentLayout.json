@@ -1,0 +1,146 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Petrik2023\\CsharpProjects\\QuizGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9AF570-2C22-4AF6-A42B-697E9AA9CE77}|QuizGame\\QuizGame.csproj|e:\\petrik2023\\csharpprojects\\quizgame\\quizgame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4C9AF570-2C22-4AF6-A42B-697E9AA9CE77}|QuizGame\\QuizGame.csproj|solutionrelative:quizgame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9AF570-2C22-4AF6-A42B-697E9AA9CE77}|QuizGame\\QuizGame.csproj|e:\\petrik2023\\csharpprojects\\quizgame\\quizgame\\models\\booster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9AF570-2C22-4AF6-A42B-697E9AA9CE77}|QuizGame\\QuizGame.csproj|solutionrelative:quizgame\\models\\booster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9AF570-2C22-4AF6-A42B-697E9AA9CE77}|QuizGame\\QuizGame.csproj|e:\\petrik2023\\csharpprojects\\quizgame\\quizgame\\services\\quizapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9AF570-2C22-4AF6-A42B-697E9AA9CE77}|QuizGame\\QuizGame.csproj|solutionrelative:quizgame\\services\\quizapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9AF570-2C22-4AF6-A42B-697E9AA9CE77}|QuizGame\\QuizGame.csproj|e:\\petrik2023\\csharpprojects\\quizgame\\quizgame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9AF570-2C22-4AF6-A42B-697E9AA9CE77}|QuizGame\\QuizGame.csproj|solutionrelative:quizgame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9AF570-2C22-4AF6-A42B-697E9AA9CE77}|QuizGame\\QuizGame.csproj|e:\\petrik2023\\csharpprojects\\quizgame\\quizgame\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9AF570-2C22-4AF6-A42B-697E9AA9CE77}|QuizGame\\QuizGame.csproj|solutionrelative:quizgame\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9AF570-2C22-4AF6-A42B-697E9AA9CE77}|QuizGame\\QuizGame.csproj|e:\\petrik2023\\csharpprojects\\quizgame\\quizgame\\models\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9AF570-2C22-4AF6-A42B-697E9AA9CE77}|QuizGame\\QuizGame.csproj|solutionrelative:quizgame\\models\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9AF570-2C22-4AF6-A42B-697E9AA9CE77}|QuizGame\\QuizGame.csproj|e:\\petrik2023\\csharpprojects\\quizgame\\quizgame\\models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9AF570-2C22-4AF6-A42B-697E9AA9CE77}|QuizGame\\QuizGame.csproj|solutionrelative:quizgame\\models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Booster.cs",
+              "DocumentMoniker": "E:\\Petrik2023\\CsharpProjects\\QuizGame\\QuizGame\\Models\\Booster.cs",
+              "RelativeDocumentMoniker": "QuizGame\\Models\\Booster.cs",
+              "ToolTip": "E:\\Petrik2023\\CsharpProjects\\QuizGame\\QuizGame\\Models\\Booster.cs",
+              "RelativeToolTip": "QuizGame\\Models\\Booster.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T15:35:58.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuizApiService.cs",
+              "DocumentMoniker": "E:\\Petrik2023\\CsharpProjects\\QuizGame\\QuizGame\\Services\\QuizApiService.cs",
+              "RelativeDocumentMoniker": "QuizGame\\Services\\QuizApiService.cs",
+              "ToolTip": "E:\\Petrik2023\\CsharpProjects\\QuizGame\\QuizGame\\Services\\QuizApiService.cs",
+              "RelativeToolTip": "QuizGame\\Services\\QuizApiService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T13:40:51.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Answer.cs",
+              "DocumentMoniker": "E:\\Petrik2023\\CsharpProjects\\QuizGame\\QuizGame\\Models\\Answer.cs",
+              "RelativeDocumentMoniker": "QuizGame\\Models\\Answer.cs",
+              "ToolTip": "E:\\Petrik2023\\CsharpProjects\\QuizGame\\QuizGame\\Models\\Answer.cs",
+              "RelativeToolTip": "QuizGame\\Models\\Answer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T13:39:35.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Topic.cs",
+              "DocumentMoniker": "E:\\Petrik2023\\CsharpProjects\\QuizGame\\QuizGame\\Models\\Topic.cs",
+              "RelativeDocumentMoniker": "QuizGame\\Models\\Topic.cs",
+              "ToolTip": "E:\\Petrik2023\\CsharpProjects\\QuizGame\\QuizGame\\Models\\Topic.cs",
+              "RelativeToolTip": "QuizGame\\Models\\Topic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T13:39:44.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Question.cs",
+              "DocumentMoniker": "E:\\Petrik2023\\CsharpProjects\\QuizGame\\QuizGame\\Models\\Question.cs",
+              "RelativeDocumentMoniker": "QuizGame\\Models\\Question.cs",
+              "ToolTip": "E:\\Petrik2023\\CsharpProjects\\QuizGame\\QuizGame\\Models\\Question.cs",
+              "RelativeToolTip": "QuizGame\\Models\\Question.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T13:39:23.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\Petrik2023\\CsharpProjects\\QuizGame\\QuizGame\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "QuizGame\\MainWindow.xaml",
+              "ToolTip": "E:\\Petrik2023\\CsharpProjects\\QuizGame\\QuizGame\\MainWindow.xaml",
+              "RelativeToolTip": "QuizGame\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-25T13:26:23.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\Petrik2023\\CsharpProjects\\QuizGame\\QuizGame\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "QuizGame\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\Petrik2023\\CsharpProjects\\QuizGame\\QuizGame\\MainWindow.xaml.cs",
+              "RelativeToolTip": "QuizGame\\MainWindow.xaml.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAIwHkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T13:26:20.875Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

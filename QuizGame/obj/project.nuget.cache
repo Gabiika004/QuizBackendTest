@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "w+Yb4cmCD6jdiYcFQBUUAQuNrVdBzMH8SSFGnjQSoyYHEle0aP4033cPJOU7afZ1M26IH1mNgQNEfXNZMOPReA==",
+  "success": true,
+  "projectFilePath": "E:\\Petrik2023\\CsharpProjects\\QuizGame\\QuizGame\\QuizGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ggabi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

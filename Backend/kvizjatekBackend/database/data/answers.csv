@@ -1,0 +1,41 @@
+id,question_id,answer_text,is_correct
+1,1,"7",true
+2,1,"8",false
+3,1,"9",false
+4,1,"10",false
+5,2,"Franciaország",true
+6,2,"Németország",false
+7,2,"Olaszország",false
+8,2,"Spanyolország",false
+9,3,"I. István",true
+10,3,"Mátyás király",false
+11,3,"I. Károly",false
+12,3,"IV. Béla",false
+13,4,"H2O",true
+14,4,"CO2",false
+15,4,"O2",false
+16,4,"H2SO4",false
+17,5,"H.G. Wells",true
+18,5,"Charles Dickens",false
+19,5,"Jules Verne",false
+20,5,"Mark Twain",false
+21,6,"9",true
+22,6,"8",false
+23,6,"7",false
+24,6,"6",false
+25,7,"Dél-Amerika",true
+26,7,"Afrika",false
+27,7,"Ázsia",false
+28,7,"Európa",false
+29,8,"1939",true
+30,8,"1945",false
+31,8,"1914",false
+32,8,"1936",false
+33,9,"Higany",true
+34,9,"Ólom",false
+35,9,"Arany",false
+36,9,"Vas",false
+37,10,"Arany János",false
+38,10,"Vörösmarty Mihály",false
+39,10,"Petőfi Sándor",false
+40,10,"Jókai Mór",true
