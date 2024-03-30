@@ -9,6 +9,7 @@ class Userboost extends Model
 {
     use HasFactory;
 
+    protected $fillable = ['used','userid','boosterid'];
     // Kapcsolat a User modellhez
     public function user() {
         return $this->belongsTo(User::class, 'userid');

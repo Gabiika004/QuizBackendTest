@@ -30,10 +30,10 @@
         </StackPanel>
 
         <StackPanel Grid.Column="2" Grid.RowSpan="2">
-            <Button x:Name="HalfBoosterButton" Content="Felező" Margin="5" Height="40"/> <!--Click="HalfBoosterButton_Click"-->
+            <Button x:Name="HalfBoosterButton" Content="Felező" Margin="5" Height="40" Click="HalfBoosterButton_Click"/>
             <Button x:Name="AudienceBoosterButton" Content="Közönség" Margin="5" Height="40"/>
             <!--Click="AudienceBoosterButton_Click"-->
-            <Button x:Name="PhoneBoosterButton" Content="Telefonos segítség" Margin="5" Height="40"/>
+            <Button x:Name="PhoneBoosterButton" Content="Telefonhívás" Margin="5" Height="40"/>
             <!--Click="PhoneBoosterButton_Click"-->
         </StackPanel>
 

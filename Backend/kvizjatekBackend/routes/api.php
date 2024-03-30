@@ -27,13 +27,18 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
 Route::post('/logout', [AuthController::class, 'logout'])->middleware('auth:sanctum');
-Route::apiResource('/booster',BoosterController::class);
+Route::apiResource('/booster', BoosterController::class);
 Route::apiResource('/questions', QuestionController::class);
 Route::apiResource('/topics', TopicController::class);
-Route::apiResource('/userboosts',UserBoostController::class);
+
+// Itt hozzáadjuk az egyedi útvonalakat az apiResource hívások előtt
+Route::put('/userboosts/use', [UserBoostController::class, 'updateUserBoosterStatus']);
+Route::post('/userboosts/reset/{userId}', [UserBoostController::class, 'resetBoostersForNewGame']);
+Route::get('/userboosts/user/{userId}', [UserBoostController::class, 'boostersByUserId']);
+
+// Most már az apiResource hívás tartalmazhatja az 'update' műveletet is, mivel az egyedi útvonalak már definiálva vannak
+Route::apiResource('/userboosts', UserBoostController::class);
 Route::apiResource('user-ranks', RankController::class);
-//Ez az útvonal lehetővé teszi, hogy egy POST kéréssel meghívd a reset funkciót a megfelelő userId-val.
-Route::post('/userboosts/reset/{userId}', 'API\UserboostController@resetBoostersForNewGame');
 
 Route::get('/questions', [QuestionController::class, 'index']);
 Route::get('/questions/{id}', [QuestionController::class, 'show']);

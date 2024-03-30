@@ -28,6 +28,11 @@ return new class extends Migration
      */
     public function down(): void
     {
+        Schema::table('answers', function (Blueprint $table) {
+            // Idegen kulcs kapcsolat eltávolítása
+            $table->dropForeign(['question_id']);
+        });
+
         Schema::dropIfExists('answers');
     }
 };

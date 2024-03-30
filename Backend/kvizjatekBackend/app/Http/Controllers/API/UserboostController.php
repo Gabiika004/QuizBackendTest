@@ -7,6 +7,9 @@ use Illuminate\Http\Request;
 use App\Models\Userboost;
 use App\Models\User;
 use App\Models\Booster;
+use Illuminate\Support\Facades\Facade;
+use Illuminate\Http\Response;
+use Illuminate\Support\Facades\Log;
 
 class UserboostController extends Controller
 {
@@ -17,10 +20,27 @@ class UserboostController extends Controller
      */
     public function index(Request $request)
     {
-        $userId = $request->userId;
-        $userBoosts = Userboost::where('userid', $userId)->with('booster')->get();
+        // Ellenőrizzük, hogy van-e 'userId' query paraméter a kérésben
+        if ($request->has('userId')) {
+            $userId = $request->query('userId');
+            $userBoosts = Userboost::where('userid', $userId)->with('booster')->get();
+            return response()->json($userBoosts);
+        }
+    
+        // Ha nincs megadva 'userId', akkor visszatérünk minden userboosttal
+        return response()->json(Userboost::with('booster')->get());
+    }
+
+    public function boostersByUserId($userId)
+    {
+    $userBoosts = Userboost::where('userid', $userId)->with('booster')->get();
+    if ($userBoosts->isEmpty()) {
+        return response()->json(['message' => 'Nincsenek boosterek ezzel a felhasználói azonosítóval.'], 404);
+    }
         return response()->json($userBoosts);
     }
+
+    
 
     /**
      * Új booster hozzáadása a felhasználóhoz.
@@ -64,7 +84,7 @@ class UserboostController extends Controller
 
         $userboost = Userboost::find($id);
         if (!$userboost) {
-            return response()->json(['message' => 'Userboost not found'], 404);
+            return response()->json(['message' => 'Userboost not found!'], 404);
         }
 
         $userboost->update($validatedData);
@@ -100,4 +120,26 @@ class UserboostController extends Controller
         Userboost::where('userid', $userId)->update(['used' => false]);
         return response()->json(['message' => 'Boosters reset successfully for user']);
     }
+
+    public function updateUserBoosterStatus(Request $request)
+    {
+        $userId = $request->input('userid');
+        $boosterId = $request->input('boosterid');
+    
+        // Logolás hozzáadása a kérés adatainak nyomon követéséhez
+        Log::info("updateUserBoosterStatus called with userId: $userId, boosterId: $boosterId");
+    
+        $userBoost = Userboost::where('userid', $userId)->where('boosterid', $boosterId)->first();
+    
+        if (!$userBoost) {
+            Log::warning("Userboost not found for userId: $userId, boosterId: $boosterId");
+            //return response()->json(['message' => "Userboost not found for userId: $userId, boosterId: $boosterId"], 404);
+        }
+    
+        $userBoost->used = true;
+        $userBoost->save();
+    
+        return response()->json(['message' => 'Userboost updated successfully'], 200);
+    }
+    
 }

@@ -20,3 +20,4 @@ E:\Petrik2023\CsharpProjects\QuizGame\QuizGame\obj\Debug\net8.0-windows\refint\Q
 E:\Petrik2023\CsharpProjects\QuizGame\QuizGame\obj\Debug\net8.0-windows\QuizGame.pdb
 E:\Petrik2023\CsharpProjects\QuizGame\QuizGame\obj\Debug\net8.0-windows\QuizGame.genruntimeconfig.cache
 E:\Petrik2023\CsharpProjects\QuizGame\QuizGame\obj\Debug\net8.0-windows\ref\QuizGame.dll
+E:\Petrik2023\CsharpProjects\QuizGame\QuizGame\obj\Debug\net8.0-windows\QuizGame.sourcelink.json
